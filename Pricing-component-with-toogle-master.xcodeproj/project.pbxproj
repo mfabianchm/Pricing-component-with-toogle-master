@@ -11,6 +11,7 @@
 		58982B9D2B8E962C00B8B480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58982B9C2B8E962C00B8B480 /* ContentView.swift */; };
 		58982B9F2B8E962E00B8B480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58982B9E2B8E962E00B8B480 /* Assets.xcassets */; };
 		58982BA22B8E962E00B8B480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58982BA12B8E962E00B8B480 /* Preview Assets.xcassets */; };
+		58982BAB2B8F035B00B8B480 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58982BA82B8E985A00B8B480 /* Montserrat-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		58982B9C2B8E962C00B8B480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58982B9E2B8E962E00B8B480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58982BA12B8E962E00B8B480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58982BA82B8E985A00B8B480 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		58982BAA2B8E987700B8B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		58982B992B8E962C00B8B480 /* Pricing-component-with-toogle-master */ = {
 			isa = PBXGroup;
 			children = (
+				58982BAA2B8E987700B8B480 /* Info.plist */,
+				58982BA92B8E986800B8B480 /* Font */,
 				58982B9A2B8E962C00B8B480 /* Pricing_component_with_toogle_masterApp.swift */,
 				58982B9C2B8E962C00B8B480 /* ContentView.swift */,
 				58982B9E2B8E962E00B8B480 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				58982BA12B8E962E00B8B480 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58982BA92B8E986800B8B480 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				58982BA82B8E985A00B8B480 /* Montserrat-Bold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +140,7 @@
 			files = (
 				58982BA22B8E962E00B8B480 /* Preview Assets.xcassets in Resources */,
 				58982B9F2B8E962E00B8B480 /* Assets.xcassets in Resources */,
+				58982BAB2B8F035B00B8B480 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pricing-component-with-toogle-master/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pricing-component-with-toogle-master/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
